@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/trabajos.css">
+  <link rel="stylesheet" href="css/galeria.css">
+  <link rel="stylesheet" href="dist/css/lightbox.css">
   <title>Alineacion</title>
 </head>
 
@@ -116,21 +118,60 @@
     </p>
   </section>
 
-  <main>
-    <div class="card" style="width: 18rem;" id="mantenciones">
-      <img src="img/Alineacion.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Alineacion y balanceo</h5>
-        <p class="card-text">El vehiculo presentaba una perforacion en su neumatico delanero izquierdo, producto de un
-          elemento con punta.</p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Fecha: 22 Julio 2019 </li>
-        <li class="list-group-item">Mecanico a cargo: Raul Gonzalez Ramirez</li>
-        <li class="list-group-item">Materiales usados: Sistema de alinamiento y balanceo.</li>
-      </ul>
+  <!--========================================================== -->
+  <!--TARJETAS DE LOS MANTENIMIENTOS-->
+  <!--========================================================== -->
+  <div id="tarjetas" class="border-top border-2">
+    <div class="mapa">
+      <main id="nose">
+        <div class="card" style="width: 18rem;" id="mantenciones">
+          <img src="img/Alineacion.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Alineacion y balanceo</h5>
+            <p class="card-text">El vehiculo presentaba una perforacion en su neumatico delanero izquierdo, producto de
+              un
+              elemento con punta.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Fecha: 22 Julio 2019 </li>
+            <li class="list-group-item">Mecanico a cargo: Raul Gonzalez Ramirez</li>
+            <li class="list-group-item">Materiales usados: Sistema de alinamiento y balanceo.</li>
+          </ul>
+        </div>
+      </main>
     </div>
-  </main>
+  </div>
+
+  <!--========================================================== -->
+  <!--GALERIA DE LAS MANTENCIONES-->
+  <!--========================================================== -->
+
+  <section id="galeria" class="container">
+    <div class="text-center text-dark pt-5">
+      <h1 class="fw-bold">Galeria</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur repellendus, facere voluptatem ipsa
+        cum quasi est in natus fugit commodi aliquid incidunt perferendis accusantium rem eius nisi a itaque
+        aspernatur.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="img/Alineacion.jpg" data-lightbox="mecanicos">
+          <img src="img/Alineacion.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="img/Alineacion_2.jpg" data-lightbox="mecanicos">
+          <img src="img/Alineacion_2.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="img/Alineacion_3.jpg" data-lightbox="mecanicos">
+          <img src="img/Alineacion_3.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!--========================================================== -->
   <!--FOOTER-->
   <!--========================================================== -->
@@ -148,6 +189,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+  <script src="dist/js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
